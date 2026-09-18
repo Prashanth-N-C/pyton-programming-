@@ -1,0 +1,96 @@
+# what is type casting ?
+#Type casting means converting a value from one data type to another data type.
+
+
+a = 11
+b = float(a)
+
+print(b)
+print(type(b))
+
+
+a = "25"
+b =int(a)
+
+print(b)
+print(type(b))
+
+height = "178.2"
+height = float(height)
+print(height)
+
+age = 18
+age = str(age)
+print(age)
+print(type(age))
+
+
+a = int(input("Enter the first number:"))
+b = int(input("Enter the second number"))
+print(a+b)
+
+
+
+a = "10"
+a = 5
+print(int(a)+b)
+
+
+a = 7 + 4j
+print(a)
+print(type(a))
+
+print(a.real)
+print(a.imag)
+
+student = {
+    "name" : "prash",
+    "age" : 18,
+    "course" : "CSSSE",
+    "lusck" : " not lucky"
+}
+print(student)
+
+print(student["age"])
+
+
+a = 5
+b = 3.0
+
+print(a+b)
+print(type(a+b))
+
+a = True 
+b = 5
+print(a+b)
+
+a = 326589741
+b = False
+print(a-b)
+
+
+a = True 
+b = 2.5
+print(a+b)
+print(type(a+b))
+
+
+
+a = 10 < 5
+print(a)
+print(a+5)
+
+a = True
+b = 20
+print(a+b)
+print(False + b)
+
+
+a = eval("10+20")
+print(a)
+
+num1 = eval(input("enter a number:"))
+print(a)
+print(type(a))
+
+print(eval("5+3"))
